@@ -1,0 +1,23 @@
+.footer{
+    max-width: 100%;
+    padding: 30px 0 29px;
+    background-color: #313454;
+}
+.footer-title h3{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+}
+@media (max-width:479px){
+    .footer-title h3{
+        font-size: 13px;
+    }
+}
+.footer-title1{
+    color: white;
+    opacity: 0.75;
+}
+.footer-title2{
+    color: white;
+}

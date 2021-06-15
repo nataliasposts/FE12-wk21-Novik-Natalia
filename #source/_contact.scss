@@ -1,0 +1,131 @@
+.contact-section{
+    max-width: 100%;
+    padding: 72px 0 110px 0;
+    background-color: #3A3E64;
+}
+.contact-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0 -15px 0 -15px;
+}
+.contact-row_item{
+    margin: 0 15px 0 15px;
+}
+@media (max-width:767px){
+    .contact-row_location{
+        margin-bottom: 30px;
+    }
+}
+.contact-row_location_title h3{
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+    color: white;
+    margin-bottom: 22px;
+    text-transform: uppercase;
+}
+@media (max-width:479px){
+    .contact-row_location_title h3{
+        font-size: 12px;
+    }
+}
+.cotact-row_location_description p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    color: white;
+    opacity: 0.75;
+}
+@media (max-width:479px){
+    .contact-row_location_description p{
+        font-size: 12px;
+    }
+}
+.contact-row_share_name h3{
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+    color: white;
+    margin-bottom: 22px;
+    text-transform: uppercase;
+}
+@media (max-width:479px){
+    .contact-row_share_name h3{
+        font-size: 12px;
+    }
+}
+.contact-row_share_icons{
+    display: flex;
+}
+.share_icon a{
+    height: 40px;
+    width: 40px;
+    color: white;
+    border: 2px solid white;
+    border-radius: 2px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    transition: 0.3s;
+}
+@media (max-width:767px){
+    .share_icon a{
+        height: 35px;
+        width: 35px;
+    }
+}
+.share_icon a:hover{
+    background-color:#E84545;
+}
+.share_icon{
+    margin-left: 3px;
+}
+.share_icon:first-child{
+    margin-left: 0px;
+}
+.contact-row_about{
+    width: 328px;
+}
+.contact-row_about_title h3{
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+    color: white;
+    margin-bottom: 22px;
+    text-transform: uppercase;
+}
+@media (max-width:479px){
+    .contact-row_about_title h3{
+        font-size: 12px;
+    }
+}
+.contact-row_about_description p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    color: white;
+    opacity: 0.75;
+}
+@media (max-width:479px){
+    .contact-row_about_description p{
+        font-size: 12px;
+    }
+}
+@media (max-width:992px){
+    .contact-row_about{
+        width: 250px;
+    }
+}
+@media (max-width:767px){
+    .contact-row_about{
+        width: 328px;
+        margin-top: 15px;
+    }
+}

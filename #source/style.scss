@@ -1,0 +1,28 @@
+@import '_header';
+@import '_firstscreen';
+@import'_features';
+@import'_teams';
+@import'_download';
+@import'_contact';
+@import'_footer';
+@import'_works';
+@import'_slider';
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;  
+}
+.container{
+    max-width: 1170px;
+    margin: auto;
+    padding: 0 15px;
+}
+.first-img{
+    background-image: url(/img/firstscreen.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

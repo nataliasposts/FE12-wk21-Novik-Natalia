@@ -1,0 +1,71 @@
+.team-section{
+    max-width: 100%;
+    padding: 101px 0 99px 0;
+}
+.team-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0 -15px 0 -15px;
+}
+.team-row-item{
+    margin: 0 15px 0 15px;
+    max-width: 240px;
+}
+.team-row_img{
+    width: 240px;
+    height: 240px;
+    margin-bottom: 30px;
+}
+.team-row_name h3{
+    font-family: 'Raleway', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    margin-bottom: 16px;
+    color: black;
+}
+.team-row_position h4{
+    font-family: 'Raleway', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 29px;
+    color:#E84545;
+}
+.team-row_descriprion p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 30px;
+    color:black;
+}
+.team-row_icons{
+    display: flex;
+}
+.team-row_icon a{
+    height: 40px;
+    width: 40px;
+    color: grey;
+    border: 2px solid grey;
+    border-radius: 2px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    opacity: 0.75;
+    transition: 0.3s;
+}
+.team-row_icon a:hover{
+ background-color: #E84545;
+}
+.team-row_icon{
+    margin-right: 3px;
+}
+@media (max-width:1200px){
+    .team-row_icon{
+        margin-bottom: 30px;
+    }
+}
+.team-row_icons:first-child{
+    margin-right: 0px;
+}
